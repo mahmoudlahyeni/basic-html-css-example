@@ -1,0 +1,128 @@
+* {
+    box-sizing: border-box;
+    /* This includes padding and border in width and height calculations */
+
+
+}
+
+body {
+    background-color: lightblue;
+    /* You can use color names, hex codes, RGB, or HSL */
+    font-family: Arial, sans-serif;
+
+}
+
+article {
+    border: 2px solid #856;
+    padding: 5px;
+    margin: 5px;
+}
+
+aside {
+    text-align: center;
+    /* Center-aligns the text */
+
+}
+
+h1 {
+    text-align: center;
+    /* Center-aligns the text */
+    background-color: aqua;
+    margin: 0;
+}
+
+h2 {
+    text-align: center;
+    /* Center-aligns the text */
+    background-color: rgb(74, 28, 239);
+    margin: 0;
+}
+
+h3 {
+    text-align: center;
+    /* Center-aligns the text */
+    background-color: rgb(144, 0, 255);
+}
+
+ul {
+    text-align: center;
+    /* Center-aligns the text */
+    background-color: aqua;
+
+
+
+}
+
+li {
+    display: block;
+
+
+}
+
+.child-block-1,
+.child-block-2 {
+    border: 5px solid #856;
+    display: inline-block;
+    /* Use inline-block to allow them to sit side by side */
+    vertical-align: top;
+    /* Align the top of the blocks */
+    width: 48%;
+    /* Set width of child blocks */
+    background-color: rgb(163, 163, 176);
+    
+    margin: 5px;
+    
+}
+
+.main-block {
+    width: 100%;
+    /* Set a width for the block */
+    margin: 0 auto;
+    /* Center the block */
+    padding: 10px;
+    /* Add padding */
+    border: 5px solid #856;
+    /* Add a border */
+    background-color: blueviolet;
+    /* Optional background color */
+}
+
+
+
+#images-block {
+    background-color: aqua;
+    border: 2px solid #856;
+    margin: 5px;
+    height: 200px;
+    
+
+
+}
+
+#images-block img {
+    border: 2px solid #856;
+    display: inline-block;
+    /* Use inline-block to place images in a line */
+    max-width: 27%;
+    /* Set a fixed width for the images */
+    
+    /* Maintain aspect ratio */
+    margin: 5px;
+    margin-right: 10px;
+    margin-left: 20px;
+
+    /* Add space between images */
+}
+.section-2 {
+    border: 2px solid #856;
+  
+    /* Use inline-block to place images in a line */
+    
+    /* Set a fixed width for the images */
+    height: auto;
+    /* Maintain aspect ratio */
+    margin: 5px;
+    /* Add space between images */
+    background-color: aqua;
+    height: 200px;
+}
